@@ -16,7 +16,7 @@
     "scale_height": 8500.0
   },
   "wind_profile": {
-    "type": "constant",
+    "type": "constant",           
     "wind_vector": [
       2.0,
       0.0,
@@ -27,5 +27,8 @@
       0.0,
       0.0
     ]
-  }
+  },
+  "Cd_table": [[0.0, 0.4], [0.8, 0.35], [1.0, 0.6], [2.0, 0.5]],
+  "tol_abs": 1e-6,          
+  "tol_rel": 1e-8          
 }
