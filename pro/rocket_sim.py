@@ -47,7 +47,7 @@ class DrydenGust:
 # ────────────────────────────────────── メイン
 
 def main():
-    cfg=json.load(open("config.json",encoding="utf-8"))
+    cfg=json.load(open("C:\\Users\\56\\Desktop\\Github\\rocket_simulator\\pro\\config.json",encoding="utf-8"))
 
     # STL 幾何
     mesh=trimesh.load(cfg["stl_path"]); mesh.apply_scale(cfg.get("stl_scale",1))
