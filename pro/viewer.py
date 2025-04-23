@@ -1,8 +1,6 @@
 import pandas as pd, numpy as np, plotly.graph_objects as go
 from scipy.spatial.transform import Rotation as R
 
-#test
-
 CSV_FILE  = "trajectory_attitude_env.csv"   # ←パス合わせて
 AXIS_LEN  = 0.5     # 矢印長さ
 MAX_F     = 120     # フレーム数
